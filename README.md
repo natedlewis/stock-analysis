@@ -4,28 +4,30 @@
 
 The pupose of this project is to further our analysis on some 2017-2018 stocks for Steve by processing data with VBA. We will be expanding the dataset to include the entire stock market over the last few years. Our goal is to refactor our script to loop through the data one time and collect all of the information at increased speeds. We'll then establish whether such tweaks improved execution speeds by comparing our original script to the refactored script.
 
-## Results
+**1. Create a `tickerIndex` variable and set it equal to zero before iterating over all the rows, along with three output arrays.**
 
-**1. Created `tickerIndex` to access the stock ticker index across created arrays.**
+> Three output arrays are declared: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.
 
-> Created three output arrays: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.
+> Their purpose is to store values that we can later reference by the `tickerIndex`. By default, an array is indexed beginning with zero, so the upper bound of each array is 11 rather than 12.
 
 
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_1.png)
 
 **2. Created a for loop to initialize the `tickerVolumes` to zero, and another that loops over all the rows in the spreadsheet.**
 
-> Before iterating over all the rows, we need to establish any values that must be initialized. Setting the tickerVolumes to 0 ensures that every time we finish analysis on one ticker, the total volume with reset to 0.
+> Before iterating over all the rows, we need to establish any values that must be initialized. Setting the tickerVolumes to 0 ensures that every time we finish analysis on one ticker, the total volume will reset to 0.
 
 
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_2.png)
 
 > Increased the current tickerVolumes by using the tickerIndex variable as the index.
 
-> Wrote a nested loop
+> The nested loop is created to loop through the stock data, reading and storing all of the following values from each row: `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.
 
 
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_3.png)
+
+## Results
 
 **Stock Performance**
 
