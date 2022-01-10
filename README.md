@@ -21,6 +21,7 @@ The pupose of this project is to further our analysis on some 2017-2018 stocks f
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_2.png)
 
 > Increased the current tickerVolumes by using the tickerIndex variable as the index.
+
 > Wrote a nested loop
 
 
@@ -29,17 +30,25 @@ The pupose of this project is to further our analysis on some 2017-2018 stocks f
 **Stock Performance**
 
 > 2017
+
+
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_2017_Performance.png?raw=true)
 
 > 2018
+
+
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_2018_Performance.png?raw=true)
 
 **Execution times**
 
 > 2017
+
+
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2017.png?raw=true)
 
 > 2018
+
+
 ![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2018.png?raw=true)
 
 ## Summary
