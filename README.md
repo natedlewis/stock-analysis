@@ -53,5 +53,7 @@ The pupose of this project is to further our analysis on some 2017-2018 stocks f
 
 ## Summary
 
-The process of refactoring code doesn't involve adding new functionality, but focusues on improving efficinecy. Such goal is met if refactoring enhances the design, makes it easier to understand, helps find bugs, or boosts execution speeds. Budget and time are the primary concerns when performing refactoring tasks. Clean code is tends to be easier to tweak, easy to read, and required less maintience work. You can avoid facing issues down the road by assessing the refactoring process early on.
+The process of refactoring code doesn't involve adding new functionality, but focusues on improving efficinecy. Such goal is met if refactoring enhances the design, makes it easier to understand, helps find bugs, or boosts execution speeds. Budget and time are the primary concerns when performing refactoring tasks. 
+
+Clean code is tends to be easier to tweak, easy to read, and required less maintience work. You can avoid facing issues down the road by assessing the refactoring process early on.
  
