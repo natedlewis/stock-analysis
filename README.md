@@ -18,14 +18,14 @@ The pupose of this project is to further our analysis on some 2017-2018 stocks f
 > Before iterating over all the rows, we need to establish any values that must be initialized. Setting the tickerVolumes to 0 ensures that every time we finish analysis on one ticker, the total volume will reset to 0.
 
 
-![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_2.png)
+![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_2.png?raw=true)
 
 > Increased the current tickerVolumes by using the tickerIndex variable as the index.
 
 > The nested loop is created to loop through the stock data, reading and storing all of the following values from each row: `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.
 
 
-![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_3.png)
+![name-of-you-image](https://github.com/natedlewis/stock-analysis/blob/main/resources/VBA_Challenge_2_Code_3.png?raw=true)
 
 ## Results
 
